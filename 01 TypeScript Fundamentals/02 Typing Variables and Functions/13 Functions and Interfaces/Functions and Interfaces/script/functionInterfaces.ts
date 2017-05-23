@@ -49,6 +49,7 @@ namespace demo_02_08 {
     // Type the function, the parameter, and use arrow functions
     // Learn more about interfaces in Module 3
     interface Person {
+        favouriteMovie: string;
         name: string;
         age?: number;
         kids: number;
@@ -58,6 +59,7 @@ namespace demo_02_08 {
     }
 
     var p: Person = {
+        favouriteMovie : 'LOTR',    
         name: 'John',
         age: 40,
         kids: 4,
