@@ -1,9 +1,3 @@
-# Classes and Interfaces - demo Classes
-
-- How different members in to the class ?
-
-
-```javascript
 class Engine {
     constructor(public horsePower: number, public engineType: string) {
 
@@ -36,4 +30,3 @@ window.onload = function () {
     console.log(car.engine.engineType);
     car.start();
 }
-```
