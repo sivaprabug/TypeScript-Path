@@ -1,4 +1,4 @@
-# 03 Demo Installing TypeScript and Running the Compiler
+# 03 Installing TypeScript and Configuring a Project-  Demo Installing TypeScript and Running the Compiler
 
 - Install typescript
 **npm install -g typescript**
