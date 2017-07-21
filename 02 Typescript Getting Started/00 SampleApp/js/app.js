@@ -5,3 +5,4 @@ function startGame() {
     console.log('Welcome to Game');
 }
 document.getElementById('startGame').addEventListener("click", startGame);
+//# sourceMappingURL=app.js.map

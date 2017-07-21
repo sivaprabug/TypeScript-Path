@@ -4,5 +4,4 @@ function startGame() {
     messagesElement.innerText = 'Welcome to Game !'
     console.log('Welcome to Game');
 }
-
-document.getElementById('startGame').addEventListener("click", startGame);   
+document.getElementById('startGame').addEventListener("click", startGame);    
