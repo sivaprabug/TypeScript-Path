@@ -4,7 +4,7 @@
         "noUnusedLocals": true,
         "outFile": "output.js"
     },
-    "files": {
-        "app.js"
-    }
+    "files": [
+        "app.ts"
+    ]
 }
