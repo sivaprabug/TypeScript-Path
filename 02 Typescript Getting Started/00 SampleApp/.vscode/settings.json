@@ -1,0 +1,17 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/.gitignore": true
+    },
+    "editor.quickSuggestions": true,
+    "editor.parameterHints": true,
+    "editor.wordBasedSuggestions": true,
+    "editor.selectionHighlight": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "window.zoomLevel": -1,
+    "editor.cursorBlinking": "solid"
+}
