@@ -1,3 +1,13 @@
+function dullFunc(value1, value2) {
+    return "Return as string";
+}
+var dull = dullFunc(20, 30);
+console.log("dull ", dull);
+function funFunc(score, message) {
+    return "Return as string";
+}
+var fun = funFunc(20, 'Sivaprabu');
+console.log("fun ", fun);
 function startGame() {
     var value = 5.5678;
     console.log(value);
