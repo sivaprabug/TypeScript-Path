@@ -1,3 +1,9 @@
+function greeting(message) {
+    if (message === void 0) { message = "Good Morning"; }
+    console.log("message ", message);
+}
+greeting();
+greeting("Good Night");
 function dullFunc(value1, value2) {
     return "Return as string";
 }

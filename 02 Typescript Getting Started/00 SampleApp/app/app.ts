@@ -1,16 +1,24 @@
+
+function greeting(message: string = "Good Morning"): void {
+    console.log("message ", message);
+}
+
+greeting();
+greeting("Good Night");
+
 function dullFunc(value1, value2) {
     return "Return as string";
 }
 
 let dull = dullFunc(20, 30);
- console.log("dull ", dull);
+console.log("dull ", dull);
 
 function funFunc(score: number, message?: string): string {
     return "Return as string";
 }
 
-let fun = funFunc(20,'Sivaprabu');
- console.log("fun ", fun);
+let fun = funFunc(20, 'Sivaprabu');
+console.log("fun ", fun);
 
 function startGame() {
     let value: any = 5.5678;
