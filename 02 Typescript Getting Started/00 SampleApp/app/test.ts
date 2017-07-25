@@ -1,3 +1,6 @@
+let logMessage = (message:string) => console.warn(message);
+logMessage('Welcome to Multimath')
+
 let squareit = (x: number) => x * x;
 
 let result = squareit(4); //14

@@ -1,3 +1,5 @@
+var logMessage = function (message) { return console.warn(message); };
+logMessage('Welcome to Multimath');
 var squareit = function (x) { return x * x; };
 var result = squareit(4);
 console.log("result ", result);
