@@ -1,3 +1,6 @@
+# 08 Writing Better Functions with TypeScript - Demo Taking Advantage of Function Types
+
+```javascript
 function startGame() {
     // starting a new game
 
@@ -48,3 +51,4 @@ let logMessage = (message: string) => console.log(message);
 function logError(error: string): void {
     console.error(error);
 }
+```
