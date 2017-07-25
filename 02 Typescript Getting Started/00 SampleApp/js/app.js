@@ -1,42 +1,24 @@
-function greeting(message) {
-    if (message === void 0) { message = "Good Morning"; }
-    console.log("message ", message);
-}
-greeting();
-greeting("Good Night");
-function dullFunc(value1, value2) {
-    return "Return as string";
-}
-var dull = dullFunc(20, 30);
-console.log("dull ", dull);
-function funFunc(score, message) {
-    return "Return as string";
-}
-var fun = funFunc(20, 'Sivaprabu');
-console.log("fun ", fun);
 function startGame() {
-    var value = 5.5678;
-    console.log(value);
-    var fixedString = value.toFixed(2);
-    console.log(fixedString);
-    var fixedStrings = value.toFixed(3);
-    console.log(fixedStrings);
-    var playerName = 'Audrey';
+    var playerName = getInputValue('playername');
     logPlayer(playerName);
-    var messagesElement = document.getElementById('messages');
-    if (messagesElement === null) {
-        return messagesElement;
-    }
-    else {
-        console.log(messagesElement);
-        messagesElement = document.getElementById('messages');
-    }
-    var element = messagesElement;
-    messagesElement.innerText = 'Welcome to MultiMath! Starting new game...';
-    console.log('Starting new game.');
+    postScore(100, playerName);
 }
 function logPlayer(name) {
+    if (name === void 0) { name = "Multimath Player"; }
     console.log("New game starting for player: " + name);
+}
+function postScore(score, playerName) {
+    var scoreElement = document.getElementById('postedScores');
+    scoreElement.innerText = '${score}-${playerName}';
+}
+function getInputValue(elementId) {
+    var inputElement = document.getElementById(elementId);
+    if (inputElement.value === '') {
+        return undefined;
+    }
+    else {
+        return inputElement.value;
+    }
 }
 document.getElementById('startGame').addEventListener('click', startGame);
 //# sourceMappingURL=app.js.map

@@ -1,3 +1,8 @@
+# 05 Writing Better Functions with TypeScript - Demo Adding Type Annotations and Default Parameter Values
+
+- Adding type annotations and default parameter values.
+
+```javascript
 function startGame() {
     // starting a new game
     let playerName: string | undefined = getInputValue('playername');
@@ -25,3 +30,4 @@ function getInputValue(elementId: string): string | undefined {
 }
 
 document.getElementById('startGame')!.addEventListener('click', startGame);
+```
