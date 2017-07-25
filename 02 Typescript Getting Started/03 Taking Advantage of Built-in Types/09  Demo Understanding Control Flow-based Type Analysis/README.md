@@ -1,3 +1,8 @@
+# 09 Taking Advantage of Built-in Types - Demo Understanding Control Flow-based Type Analysis
+
+### Understanding control flow-based type analysis
+
+```javascript
 function startGame() {
 
 
@@ -34,3 +39,5 @@ function logPlayer(name) {
 }
 
 document.getElementById('startGame')!.addEventListener('click', startGame);
+
+```
