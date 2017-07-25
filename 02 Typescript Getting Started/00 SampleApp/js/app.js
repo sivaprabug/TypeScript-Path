@@ -1,27 +1,12 @@
-var name = 'Sivaprabu Ganesan';
-console.log(name);
 function startGame() {
+    var playerName = 'Audrey';
+    logPlayer(playerName);
     var messagesElement = document.getElementById('messages');
-    messagesElement.innerText = 'Welcome to Game !';
-    console.log('Welcome to Game');
+    messagesElement.innerText = 'Welcome to MultiMath! Starting new game...';
+    console.log('Starting new game.');
 }
-document.getElementById('startGame').addEventListener("click", startGame);
-var a = "Sivaprabu";
-console.log(a);
-var someString = 'Hello World';
-console.log(someString);
-var x = 'I will forever be a string.';
-console.log(x);
-x = 42;
-console.log(x);
-var y = 'I will forever be a string.';
-console.log(y);
-y = 42;
-console.log(y);
-function getSomeValue() {
-    var myName = 'Siva';
-    return myName;
+function logPlayer(name) {
+    console.log("New game starting for player: " + name);
 }
-var z = getSomeValue();
-console.log(z);
+document.getElementById('startGame').addEventListener('click', startGame);
 //# sourceMappingURL=app.js.map
