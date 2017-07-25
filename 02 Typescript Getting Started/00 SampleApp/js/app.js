@@ -1,4 +1,13 @@
 function startGame() {
+    var basicString;
+    basicString = null;
+    basicString = undefined;
+    var nullableString;
+    nullableString = null;
+    nullableString = undefined;
+    var mysteryString;
+    mysteryString = null;
+    mysteryString = undefined;
     var playerName = 'Audrey';
     logPlayer(playerName);
     var messagesElement = document.getElementById('messages');

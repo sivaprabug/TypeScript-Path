@@ -1,5 +1,18 @@
 function startGame() {
     // starting a new game
+    //Using the --strictNullChecksCompiler Option
+
+    let basicString: string;
+    basicString = null;
+    basicString = undefined;
+
+    let nullableString: string | null;
+    nullableString = null;
+    nullableString = undefined;
+
+    let mysteryString: string | null | undefined;
+    mysteryString = null;
+    mysteryString = undefined;
 
     let playerName: string = 'Audrey';
     logPlayer(playerName);
