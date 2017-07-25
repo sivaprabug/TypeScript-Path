@@ -1,14 +1,6 @@
-const name = 'Sivaprabu Ganesan';
-console.log(name);
+# 03 Taking Advantage of Built-in Types - Type Annotations and Type Inference
 
-function startGame() {
-    // Starting a new game
-    var messagesElement = document.getElementById('messages');
-    messagesElement.innerText = 'Welcome to Game !'
-    console.log('Welcome to Game');
-}
-document.getElementById('startGame').addEventListener("click", startGame);
-
+```javascript
 var a = "Sivaprabu";
 console.log(a);
 //console.log(b);
@@ -34,3 +26,4 @@ function getSomeValue() {
 
 let z:number = getSomeValue();
 console.log(z);
+```
