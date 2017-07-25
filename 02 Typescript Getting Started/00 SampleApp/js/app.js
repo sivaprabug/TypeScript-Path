@@ -8,6 +8,8 @@ function startGame() {
     var playerName = 'Audrey';
     logPlayer(playerName);
     var messagesElement = document.getElementById('messages');
+    var element = messagesElement;
+    console.log(element);
     messagesElement.innerText = 'Welcome to MultiMath! Starting new game...';
     console.log('Starting new game.');
 }
