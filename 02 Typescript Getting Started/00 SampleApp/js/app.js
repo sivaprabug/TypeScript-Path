@@ -35,4 +35,14 @@ var logMessage = function (message) { return console.log(message); };
 function logError(error) {
     console.error(error);
 }
+var myResult = {
+    playerName: "Sivaprabu",
+    score: 20,
+    problemcount: 5,
+    factor: 5
+};
+var player = {
+    name: 'Pranav Sivaprabu',
+    formatName: function () { return 'Pranav'; }
+};
 //# sourceMappingURL=app.js.map

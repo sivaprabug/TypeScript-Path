@@ -48,3 +48,15 @@ let logMessage = (message: string) => console.log(message);
 function logError(error: string): void {
     console.error(error);
 }
+
+let myResult: Result = {
+    playerName: "Sivaprabu",
+    score: 20,
+    problemcount: 5,
+    factor: 5
+};
+
+let player: Person = {
+    name: 'Pranav Sivaprabu',
+    formatName: () => 'Pranav'
+}
