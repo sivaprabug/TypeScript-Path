@@ -1,4 +1,4 @@
-interface Employee {
+interface Employees {
     name: string;
     title: string;
 }
@@ -8,4 +8,4 @@ let developer = {
     title: 'Senior System Software Engineer',
     editor: 'Visual Studio Code'
 }
-let newEmployee: Employee = developer;
+let newEmployee: Employees = developer;
