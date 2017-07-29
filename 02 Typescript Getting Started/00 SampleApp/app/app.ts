@@ -1,3 +1,5 @@
+/// <reference path="player.ts" />
+
 function startGame() {
     // starting a new game
 
@@ -64,3 +66,5 @@ let player: Person = {
 
 let firstPlayer: Player = new Player();
 firstPlayer.name = "Sivaprabu";
+
+console.log(firstPlayer.formatName());

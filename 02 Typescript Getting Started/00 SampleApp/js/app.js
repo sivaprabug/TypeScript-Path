@@ -1,3 +1,12 @@
+var Player = (function () {
+    function Player() {
+    }
+    Player.prototype.formatName = function () {
+        console.log("Calling formatName()");
+        return this.name.toUpperCase();
+    };
+    return Player;
+}());
 function startGame() {
     var playerName = getInputValue('playername');
     logPlayer(playerName);
@@ -37,4 +46,5 @@ function logError(error) {
 }
 var firstPlayer = new Player();
 firstPlayer.name = "Sivaprabu";
+console.log(firstPlayer.formatName());
 //# sourceMappingURL=app.js.map
