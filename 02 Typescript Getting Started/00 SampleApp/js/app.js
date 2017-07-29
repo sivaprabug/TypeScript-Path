@@ -1,3 +1,13 @@
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var Player = (function () {
     function Player() {
     }
@@ -47,4 +57,37 @@ function logError(error) {
 var firstPlayer = new Player();
 firstPlayer.name = "Sivaprabu";
 console.log(firstPlayer.formatName());
+var Developer = (function () {
+    function Developer() {
+    }
+    Object.defineProperty(Developer.prototype, "title", {
+        get: function () {
+            return this._title;
+        },
+        set: function (newTitle) {
+            this._title = newTitle.toUpperCase();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Developer.prototype.documentRequirements = function (requirements) {
+        console.log(requirements);
+    };
+    return Developer;
+}());
+var WebDeveloper = (function (_super) {
+    __extends(WebDeveloper, _super);
+    function WebDeveloper() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    WebDeveloper.logFavoriteProtocol = function () {
+        console.log('HTTPS, of course!');
+    };
+    WebDeveloper.prototype.logJobDescription = function () {
+        console.log(WebDeveloper.jobDescription);
+    };
+    WebDeveloper.jobDescription = 'Build cool things!';
+    return WebDeveloper;
+}(Developer));
+WebDeveloper.logFavoriteProtocol();
 //# sourceMappingURL=app.js.map
