@@ -90,4 +90,21 @@ var WebDeveloper = (function (_super) {
     return WebDeveloper;
 }(Developer));
 WebDeveloper.logFavoriteProtocol();
+var Developers = (function () {
+    function Developers() {
+        console.log('Creating a new developer.');
+    }
+    return Developers;
+}());
+var greeter = new Developers();
+var WebDeveloperClass = (function (_super) {
+    __extends(WebDeveloperClass, _super);
+    function WebDeveloperClass(editor) {
+        var _this = _super.call(this) || this;
+        _this.favoriteEditor = editor;
+        return _this;
+    }
+    return WebDeveloperClass;
+}(Developers));
+var greets = new WebDeveloperClass('siva');
 //# sourceMappingURL=app.js.map

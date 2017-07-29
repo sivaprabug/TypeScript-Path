@@ -95,3 +95,20 @@ class WebDeveloper extends Developer {
     }
 }
 WebDeveloper.logFavoriteProtocol();
+
+
+class Developers {
+    constructor() {
+        console.log('Creating a new developer.');
+    }
+}
+
+let greeter = new Developers();
+
+class WebDeveloperClass extends Developers {
+    readonly favoriteEditor: string;
+    constructor(editor: string) {
+        super();
+        this.favoriteEditor = editor;
+    }
+}
