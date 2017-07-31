@@ -1,6 +1,6 @@
 import { Player } from './player';
 import { Game } from './game';
-import * as Helpers  from './utility'
+import * as Helpers from './utility';
 
 let newGame: Game;
 
