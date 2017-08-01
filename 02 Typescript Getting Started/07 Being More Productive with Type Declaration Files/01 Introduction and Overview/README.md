@@ -1,4 +1,4 @@
-# 07 Being More Productive with Type Declaration Files - Introduction and Overview
+# 01 Being More Productive with Type Declaration Files - Introduction and Overview
 
 ### Overview
 - Type declaration files
