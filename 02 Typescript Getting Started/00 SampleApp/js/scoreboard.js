@@ -1,11 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var _ = require("lodash");
 var Scoreboard = (function () {
     function Scoreboard() {
         this.results = [];
     }
     Scoreboard.prototype.addResult = function (newResult) {
         this.results.push(newResult);
+        var allCapsName = _.upperCase(newResult.playerName);
+        console.log(allCapsName + ": " + newResult.score);
     };
     Scoreboard.prototype.updateScoreboard = function () {
         var output = '<h2>Scoreboard</h2>';
