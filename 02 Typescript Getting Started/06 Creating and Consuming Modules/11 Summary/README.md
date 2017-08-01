@@ -1,4 +1,4 @@
-# 10 Creating and Consuming Modules - Summary
+# 11 Creating and Consuming Modules - Summary
 
 - Modules provide higher-level abstractions
 - Simple syntax
