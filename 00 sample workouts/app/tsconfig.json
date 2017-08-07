@@ -1,0 +1,15 @@
+{
+    "extends": "../tsconfig.base",
+    "watch": false,
+    "compilerOptions": {
+        "removeComments": true,
+        "sourceMap": true,
+        "watch": false,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "traceResolution": false
+    },
+    "include": [
+        "./**/*.ts"
+    ]
+}
