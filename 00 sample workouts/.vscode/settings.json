@@ -13,5 +13,22 @@
     "editor.selectionHighlight": false,
     "editor.suggestOnTriggerCharacters": false,
     "window.zoomLevel": -1,
-    "editor.cursorBlinking": "solid"
+    "editor.cursorBlinking": "solid",
+    "cSpell.enabledLanguageIds": [
+        "c",
+        "cpp",
+        "csharp",
+        "go",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "latex",
+        "markdown",
+        "php",
+        "plaintext",
+        "python",
+        "text",
+        "typescriptreact",
+        "yml"
+    ]
 }

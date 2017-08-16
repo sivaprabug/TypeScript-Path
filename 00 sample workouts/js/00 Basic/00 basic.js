@@ -12,4 +12,4 @@ var s1 = new Student(1, "Sivaprabu Ganesan");
 s1.showDetails();
 var s2 = new Student(2, "Pranav Sivaprabu");
 s2.showDetails();
-//# sourceMappingURL=class.js.map
+//# sourceMappingURL=00 basic.js.map

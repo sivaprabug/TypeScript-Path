@@ -2,6 +2,7 @@
     "extends": "../tsconfig.base",
     "watch": false,
     "compilerOptions": {
+        "target": "es5",
         "removeComments": true,
         "sourceMap": true,
         "watch": false,
@@ -9,7 +10,5 @@
         "moduleResolution": "node",
         "traceResolution": false
     },
-    "include": [
-        "./**/*.ts"
-    ]
+    "include": ["./**/*.ts"]
 }
