@@ -1,10 +1,13 @@
 # Getting Started with TypeScript - Why use TypeScript
 
-- Revealing module patter.
+- Revealing module pattern.
 - Prototype Pattern
 - Function Spaghetti Code
 - Lack of reuse
 - Structure in JS Code
 - Maintainable code
+    - Large scale apps very difficult to handle
 - Type casting
-- Migrating Server side to Clinet is very difficult.
+    - number to string
+    - string to number had headache
+- Migrating Server side to Client is very difficult.
