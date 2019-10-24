@@ -1,4 +1,5 @@
 # Getting Started with TypeScript - TypeScript Features
+For more details => [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 
 - Modularity
 - Encapsulation
